@@ -1,0 +1,2 @@
+RTStab:RTStitch:YOLOv8_Tracking:usb_cam
+-DCATKIN_DEVEL_PREFIX=/home/a/tensor_ws/devel -DCMAKE_INSTALL_PREFIX=/home/a/tensor_ws/install -G Unix Makefiles

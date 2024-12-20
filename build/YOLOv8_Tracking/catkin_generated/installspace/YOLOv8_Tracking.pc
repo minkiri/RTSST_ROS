@@ -1,0 +1,8 @@
+prefix=/home/a/tensor_ws/install
+
+Name: YOLOv8_Tracking
+Description: Description of YOLOv8_Tracking
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

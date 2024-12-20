@@ -1,0 +1,8 @@
+prefix=/home/a/tensor_ws/devel
+
+Name: RTStitch
+Description: Description of RTStitch
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs sensor_msgs cv_bridge

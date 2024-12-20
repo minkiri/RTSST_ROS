@@ -1,0 +1,7 @@
+<launch>
+    <!-- RTStitch 노드 실행 -->
+    <node pkg="RTStitch" type="rtstitch_node.py" name="rtstitch_node" output="screen">
+        <param name="weights_path" value="$(find RTStitch)/resources/superpoint_v1.pth"/>
+    </node>
+</launch>
+

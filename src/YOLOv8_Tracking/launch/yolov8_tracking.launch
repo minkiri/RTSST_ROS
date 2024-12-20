@@ -1,0 +1,4 @@
+<launch>
+  <!-- RTStab Node -->
+  <node name="yolov8_tracking_node" pkg="YOLOv8_Tracking" type="yolov8_tracking_node.py" output="screen" />
+</launch>

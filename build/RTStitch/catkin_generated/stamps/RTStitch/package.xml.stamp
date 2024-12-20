@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>RTStitch</name>
+  <version>0.0.0</version>
+  <description>The RTStitch package</description>
+
+  <!-- One maintainer tag required, multiple allowed, one person per tag -->
+  <!-- Example:  -->
+  <!-- <maintainer email="jane.doe@example.com">Jane Doe</maintainer> -->
+  <maintainer email="user@todo.todo">user</maintainer>
+
+
+  <!-- One license tag required, multiple allowed, one license per tag -->
+  <!-- Commonly used license strings: -->
+  <!--   BSD, MIT, Boost Software License, GPLv2, GPLv3, LGPLv2.1, LGPLv3 -->
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+   <!-- 런타임 의존성 -->
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>cv_bridge</depend>
+  <depend>message_runtime</depend>
+
+  <!-- 시스템 의존성 (OpenCV, PyTorch 등) -->
+  <exec_depend>python3</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>torch</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+    <resource>
+      <file>resources/superpoint_v1.pth</file>
+    </resource>
+  </export>
+</package>

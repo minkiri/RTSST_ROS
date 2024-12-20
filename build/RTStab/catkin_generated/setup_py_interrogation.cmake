@@ -1,0 +1,7 @@
+set(RTStab_SETUP_PY_SETUP_MODULE "setuptools")
+set(RTStab_SETUP_PY_VERSION "0.0.1")
+set(RTStab_SETUP_PY_SCRIPTS "")
+set(RTStab_SETUP_PY_PACKAGES "RTStab")
+set(RTStab_SETUP_PY_PACKAGE_DIRS "src/RTStab")
+set(RTStab_SETUP_PY_MODULES "")
+set(RTStab_SETUP_PY_MODULE_DIRS "")

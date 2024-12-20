@@ -1,0 +1,8 @@
+prefix=/home/a/tensor_ws/devel
+
+Name: RTStab
+Description: Description of RTStab
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy roscpp std_msgs sensor_msgs image_transport usb_cam cv_bridge

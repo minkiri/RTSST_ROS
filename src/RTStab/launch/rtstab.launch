@@ -1,0 +1,4 @@
+<launch>
+  <!-- RTStab Node -->
+  <node name="rtstab_node" pkg="RTStab" type="rtstab_node.py" output="screen" />
+</launch>
